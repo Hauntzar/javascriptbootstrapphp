@@ -1,0 +1,105 @@
+//https://www.w3schools.com/bootstrap4/bootstrap_typography.asp
+
+//container syntax
+<div class="container"> // fixed length container
+<div class="container-fluid"> // whole width of screen
+<div class="container pt-3"></div> // padding of 16px on top
+
+// grid system 12 total
+// three equal width columns
+<div class="row">
+  <div class="col">.col</div>
+  <div class="col">.col</div>
+  <div class="col">.col</div>
+</div>
+
+.col-sm-8 // smol container scales
+
+// header and display
+<h1></h1> to <h6></h6>
+.display-1 to .display-4 // bigger headers
+can use <small> </small> to make stuff smaller in a header
+
+// cool list with bootstrap
+<div class="container">
+  <h1>Description Lists</h1>    
+  <p>The dl element indicates a description list:</p>
+  <dl>
+    <dt>Coffee</dt>
+    <dd>- black hot drink</dd>
+    <dt>Milk</dt>
+    <dd>- white cold drink</dd>
+  </dl>     
+</div>
+
+// cool text like cntrl alt delete
+<kbd></kbd>
+
+// colors background colors
+// check the site
+
+//tables
+classes - cool tables check site
+
+// images
+// check site for cool image classes
+
+jumbotron jumbotron-fluid - best header i think
+
+// progress bars
+
+// spinner
+
+// active highlight for items
+// bunch of list stuff ^^
+
+// dropdown menus
+
+// collapsible items
+
+// navigation bars or items
+
+// forms
+
+// bootstrap form inputs
+
+// bootstrap input group - add to inputs to make easier or checkboxes etc
+
+// custom select menu and forms
+
+//  carousel for pictures that slideshow automatically
+
+// modal to create popups and stuff
+
+// tooltips
+
+// popover (click to open tooltip)
+
+// toast shows something for a few seconds when something happens (alerts, notifications)
+
+// scrollspy - click to jump to certain points of the page
+
+<div class="active dropdown-toggle"></div> // using more than one class
+<p class="text-center text-left">Some text</p>
+
+// flexbox css
+https://www.w3schools.com/css/css3_flexbox_container.asp
+
+// responsive flexbox - 
+https://www.w3schools.com/css/css3_flexbox_responsive.asp
+
+//icons 
+free icons // <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<div class="container">
+  <p>Others:</p>
+  <i class="fas fa-cloud"></i>
+  <i class="fas fa-coffee"></i>
+  <i class="fas fa-car"></i>
+  <i class="fas fa-file"></i>
+  <i class="fas fa-bars"></i>
+</div>
+https://www.w3schools.com/icons/default.asp // font awesome icons
+
+// media objects for blog posts etc
+
+// filters - filter for different text

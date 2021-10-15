@@ -1,0 +1,70 @@
+body{
+    background-image:  url(balloons.png);
+    background-size:  100% auto;
+    margin: 0;
+    font-family:  Verdana, Georgia, serif;
+    font-size:  14px;
+
+}
+
+#header1 {
+margin: 10px;
+background-color: deepskyblue;
+height:  90px;
+border-radius: 5px;
+font-size:  100% auto;
+}
+#navigationbar1 {
+background-color: skyblue;
+margin:  10px;
+height:  35px;
+border-radius: 5px;
+font-size:  100% auto;
+}
+.main {
+margin:  10px;
+margin-right:  220px;
+background-color: lightskyblue;
+border-radius: 5px;
+padding:  20px;
+font-size:  110% auto;
+}
+h1 {
+font-size:  120% auto;
+color:  floralwhite;
+}
+h2 {
+font-size:  120% auto;
+color:  lightpink;
+}
+.sideright {
+    background-color: cadetblue;
+    margin:  10px;
+    margin-top:  0px;
+    color:  whitesmoke;
+    border-radius:  5px;
+    padding:  20px;
+    font-size:  105% auto;
+    float:  right;
+    width:  260px auto;
+    clear: right;
+}
+.imagesidebar {
+    background-color: cadetblue;
+    margin:  10px;
+    margin-top:  0px;
+    color:  whitesmoke;
+    border-radius:  5px;
+    padding:  0px;
+    float:  right;
+    width:  100px auto;
+    clear: right;
+}
+@media (max-width:  600px) {
+    .sidebar{
+        display:  none;
+    }
+}
+:is(div) :is(h1){
+    background-color:  blue;
+}
